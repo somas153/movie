@@ -1,0 +1,41 @@
+<table>
+<tr>
+    <h4>Bank search Application</h4>
+</tr>
+<tr >
+    <td>
+        <select>
+            <option> MUMBAI</option>
+                <option>DELHI </option>
+                <option>BANGALORE</option>
+                <option>KOLKATA</option>
+                <option>CUTTACK</option>
+            
+        </select>
+    </td>
+</tr>
+
+<tr class="tr">
+    <td colspan="10">
+        Mumbai bank List
+    <input type="search" class="input" placeholder="search" ></td>
+</tr>
+<tr class="tr2" >
+        <th>Action</th>
+        <th>Bank Name</th>
+        <th>IFSC</th>
+        <th>Bank ID</th>
+        <th> Branch</th><br>
+        
+        
+</tr>
+<tr class="tr2" *ngFor="let mum of mumbai" >
+        <td >{{mum.action}}</td>
+        <td>{{mum.bankname}}</td>
+        <td>{{mum.ifsc}}</td>
+        <td>{{mum.id}}</td>
+        <td>{{mum.branch}}</td>
+</tr>
+
+</table>
+
