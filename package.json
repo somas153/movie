@@ -23,7 +23,7 @@
     "@angular/platform-browser": "~8.0.3",
     "@angular/platform-browser-dynamic": "~8.0.3",
     "@angular/router": "~8.0.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "ng2-select": "^2.0.0",
     "ngx-filter-pipe": "^2.1.2",
     "rxjs": "~6.4.0",
